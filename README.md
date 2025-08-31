@@ -1,4 +1,4 @@
-# AI Auto Debate
+# AI Auto Debate Web
 
 Бэкенд-приложение на FastAPI для «бесконечных дебатов» между двумя локальными LLM (совместимыми с OpenAI Chat Completions API, напр. LM Studio). Веб‑интерфейс на Jinja2 + статика.
 
@@ -101,3 +101,4 @@ curl -Method POST -Uri $env:BOT1_URL -Body '{"messages":[{"role":"user","content
 - `KeyboardInterrupt` при установке пакетов — повторите установку.
 - Порт 8000 занят — запустите, например, с `--port 8080`.
 - Нет ответа от бота — проверьте, что LM Studio/интеграция запущены и URL корректны.
+
